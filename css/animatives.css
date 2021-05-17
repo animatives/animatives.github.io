@@ -1,0 +1,26 @@
+#mainNav .navbar-brand {
+    color: white;
+}
+
+
+
+header.masthead {
+    background: url(../img/bg-pattern.png),linear-gradient(to left,rgb(253,129,130),rgb(210,9,21));
+}
+
+@media (min-width: 992px) { 
+    #shareCodeContainer{
+        height: 92vh;
+        /* min-height: 775px;       */
+    }
+ }
+  /* Medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) { 
+    #mainNav .navbar-brand {
+        color: black;
+    }
+    #shareCodeContainer{
+        text-align: center;
+    }
+  }
+ 
