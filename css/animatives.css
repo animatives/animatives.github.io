@@ -2,10 +2,67 @@
     color: white;
 }
 
+@media (min-width: 992px){
+    header.masthead .header-content h1 {
+        font-size: 46px;
+    }
+    #mainNav.navbar-shrink {
+        border-color: rgba(34,34,34,.1);
+        background-color: #f0f0f0;
+    }
+}
 
+section.features .section-heading {
+    margin-bottom: 30px;
+}
 
 header.masthead {
     background: url(../img/bg-pattern.png),linear-gradient(to left,rgb(253,129,130),rgb(210,9,21));
+}
+
+section.features .feature-item{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.feature-item img {
+    width: 60px;
+    margin-bottom: 14px;
+}
+
+span.highlight{
+    font-size: 28px;
+}
+.device-mockup.iphone6_plus.portrait.white>.device, .device-mockup.iphone6_plus.white>.device {
+    background-image: url(https://mockuphone.com/static/images/devices/apple-iphone12-white-portrait.png);
+    background-image: url('../img/iphone12.png');
+}
+.device-mockup.iphone6_plus.portrait>.device>.screen, .device-mockup.iphone6_plus>.device>.screen {
+    top: 10%;
+    bottom: 9.58%;
+    left: 11.6%;
+    right: 11.5%;
+    background: black;
+}
+
+.videoContainer{
+    height:0;
+    width:100%;
+    padding-bottom:100%;
+    background-color:white;
+    border: 1px solid #eeeeee;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+video{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 @media (min-width: 992px) { 
