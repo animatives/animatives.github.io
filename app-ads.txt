@@ -1,0 +1,6 @@
+# Admob publisher id from: https://apps.admob.com/v2/settings?_ga=2.154825147.2019656252.1590474389-1146316707.1589894278 <br>
+# Facebook, using business id: https://business.facebook.com/pub/performance?business_id=342471095959932&property_ids=1789557331064017&date_range=LAST_28_DAYS#_=_ <br>
+# Mopub, get publisher id: https://app.mopub.com/account <br><br>
+
+google.com, pub-4892922400982939, DIRECT, f08c47fec0942fa0 <br>
+facebook.com, 342471095959932, RESELLER, c3e20eee3f780d68 <br>

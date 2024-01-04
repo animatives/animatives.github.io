@@ -1,0 +1,151 @@
+#mainNav .navbar-brand {
+    color: white;
+}
+#mainNav .navbar-nav>li>a {
+    font-size: 14px;
+}
+.navbar-brand {
+    font-size: 22px;
+}
+.navlogo{
+    width: 40px;
+    display: inline-block;
+    margin-top: -5px;
+    margin-right: 10px;
+    background: white;
+    border-radius: 8px;
+}
+
+@media (min-width: 992px){
+    header.masthead .header-content h1 {
+        font-size: 46px;
+    }
+    #mainNav.navbar-shrink {
+        border-color: rgba(34,34,34,.1);
+        background-color: #f0f0f0;
+    }
+}
+
+header.masthead .header-content{
+    max-width: 100% !important;
+}
+section.features .section-heading {
+    margin-bottom: 30px;
+}
+
+#forwho hr{
+    border-color: white;
+}
+#forwho .text-muted{
+    color: #ddd !important;
+}
+
+header.masthead, #tutorial, #forwho {
+    background: url(../img/bg-pattern.png),linear-gradient(to left,rgb(253,129,130),rgb(210,9,21));
+}
+
+section.features .feature-item{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.feature-item img {
+    width: 60px;
+    margin-bottom: 14px;
+}
+
+span.highlight{
+    font-size: 28px;
+}
+.device-mockup.iphone6_plus.portrait.white>.device, .device-mockup.iphone6_plus.white>.device {
+    /* background-image: url(https://mockuphone.com/static/images/devices/apple-iphone12-white-portrait.png); */
+    /* background-image: url('../img/iphone12.png'); */
+    background-image: unset;
+    height: 100%;
+}
+.device-mockup.iphone6_plus.portrait>.device>.screen, .device-mockup.iphone6_plus>.device>.screen {
+        /* top: 10%;
+    bottom: 9.58%;
+    left: 11.6%;
+    right: 11.5%;
+    background: black; */
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    border-radius: 24px;
+    
+}
+
+.videoContainer{
+    height:0;
+    width:100%;
+    padding-bottom:100%;
+    background-color:white;
+    border: 0px solid #eeeeee;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 32px;
+    border-radius: 32px;
+}
+
+#examples2 .videoContainer{
+    border: 2px solid #eee;
+}
+
+video, .videoContainer .oneImage{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 992px) { 
+    #shareCodeContainer{
+        height: 92vh;
+        /* min-height: 775px;       */
+    }
+ }
+  /* Medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) { 
+    #mainNav .navbar-brand {
+        color: black;
+    }
+    #shareCodeContainer{
+        text-align: center;
+    }
+  }
+ 
+.italic{
+    font-style: italic;
+}
+
+section.features .device-container, section.features .feature-item {
+    max-width: 550px;
+}
+
+.btn-xl {
+    font-size: 14px;
+    padding: 15px 45px;
+}
+
+section.contact ul.list-social li.social-youtube a {
+    background-color: #FF0000
+}
+
+section.contact ul.list-social li.social-youtube a:hover {
+    background-color: #d90000
+}
+
+section.contact ul.list-social li.social-instagram a {
+    background-color: #8a3ab9
+}
+
+section.contact ul.list-social li.social-instagram a:hover {
+    background-color: #bc2a8d
+}
+
